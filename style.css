@@ -1,0 +1,99 @@
+:root {
+  --primary-color: #2cc545;
+  --secondary-color: #1e7bee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: nexa, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  margin: 10px 0px;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow-wrap: break-word;
+}
+
+li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+li input[type='checkbox'] {
+  margin: 0px 5px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+.container {
+  max-width: 500px;
+  min-height: 600px;
+  /* border: 1px solid #000; */
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 7px -11px 193px -52px rgba(0, 0, 0, 0.82);
+  -webkit-box-shadow: 7px -11px 193px -52px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 7px -11px 193px -52px rgba(0, 0, 0, 0.82);
+}
+
+.main-card {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.main-card form {
+  display: flex;
+  gap: 10px;
+}
+
+.heading {
+  background-color: var(--primary-color);
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.block {
+  width: 100%;
+}
+
+input[type='text'] {
+  padding: 10px 20px;
+  width: 100%;
+}
+/* 
+input[type='text']:focus {
+  border: none;
+} */
